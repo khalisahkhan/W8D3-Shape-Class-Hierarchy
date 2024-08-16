@@ -1,0 +1,13 @@
+The Shape class provides calculate_area and calculate_perimeter methods that raise NotImplementedError. 
+This serves as a signal to derived classes that these methods must be overridden.
+`get_color` and `set_color` methods manage the color attribute.
+
+`Rectangle`: Implements calculate_area and calculate_perimeter using the length and width of the rectangle.
+
+`Triangle`: Implements calculate_area using Heron's formula and calculate_perimeter using the side lengths of the triangle.
+
+`Circle`: Implements calculate_area and calculate_perimeter using the radius of the circle.
+
+Main Program:
+Demonstrates creating instances of Rectangle, Triangle and Circle.
+Stores these instances in a list, iterates over them, and prints their area, perimeter, and color.
